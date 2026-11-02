@@ -22,6 +22,27 @@
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": "Release"
       }
+    },
+    {
+      "name": "Task5",
+      "inherits": "Debug",
+      "cacheVariables": {
+        "STM32_STAGE": "5"
+      }
+    },
+    {
+      "name": "Task6",
+      "inherits": "Debug",
+      "cacheVariables": {
+        "STM32_STAGE": "6"
+      }
+    },
+    {
+      "name": "Task7",
+      "inherits": "Debug",
+      "cacheVariables": {
+        "STM32_STAGE": "7"
+      }
     }
   ],
   "buildPresets": [
@@ -32,6 +53,18 @@
     {
       "name": "Release",
       "configurePreset": "Release"
+    },
+    {
+      "name": "Task5",
+      "configurePreset": "Task5"
+    },
+    {
+      "name": "Task6",
+      "configurePreset": "Task6"
+    },
+    {
+      "name": "Task7",
+      "configurePreset": "Task7"
     }
   ]
 }

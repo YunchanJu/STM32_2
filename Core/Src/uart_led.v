@@ -1,5 +1,5 @@
 `timescale 1ns/1ps
-// Rewritten preparation implementation, 2026-10-26. UART 9600 baud 8N1.
+// UART 9600 baud 8N1 with ASCII LED commands and PC echo.
 module uart_led #(parameter CLKS_PER_BIT=5208)(
     input wire clk_50mhz, rst_p, rx,
     output wire tx, output reg led,
